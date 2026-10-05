@@ -1,0 +1,17 @@
+# OS and editor clutter
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# local servers and tooling
+node_modules/
+.env
+.env.*
+
+# exports made with the viewer (large; regenerate them with "Export .glb" / "Export plan .json")
+*.glb
+!data/*.glb
+oldtown-plan-*.json
+tools/.staging/
